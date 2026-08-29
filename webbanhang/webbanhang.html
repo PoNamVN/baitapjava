@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Cửa Hàng Thời Trang</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="webbanhang.css">
+</head>
+
+<body onload="listProducts()">
+
+    <div class="header-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <h4 class="mb-0 text-danger font-weight-bold">shop bán hàng</h4>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a href="#" class="nav-link active">Trang chủ</a>
+                    <a href="#men" class="nav-link">Thời Trang Nam</a>
+                    <a href="#woment" class="nav-link">Thời Trang Nữ</a>
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Tìm Kiếm ...">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-danger" type="button">Tìm Kiếm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 20px; margin-bottom: 20px;">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="section-title">THỜI TRANG NAM</h3>
+                </div>
+            </div>
+            <div class="row" id="men"></div>
+        </div>
+
+        <div class="container" style="margin-top: 40px;">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="section-title text-danger" style="border-color: #dc3545;">THỜI TRANG NỮ</h3>
+                </div>
+            </div>
+            <div class="row" id="woment"></div>
+        </div>
+
+    </div>
+
+    <footer class="text-center" style="padding:20px 0; margin-top:40px;">
+        <small>&copy; 2026 Shop DEBUG - All rights reserved.</small>
+    </footer>
+
+    <script src="webbanhang.js"></script>
+</body>
+</html>

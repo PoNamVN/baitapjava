@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+}
+.header-section {
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 2px solid #dc3545;
+    margin-bottom: 30px;
+}
+.nav-link {
+    color: #333;
+    font-weight: 500;
+}
+.nav-link:hover, .nav-link.active {
+    color: #dc3545;
+}
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.card-img-top {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-body p { margin: 4px 0; }
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.btn-buy {
+    background-color: #007bff;
+    color: white;
+}
+.btn-buy-women {
+    background-color: #dc3545;
+    color: white;
+}
